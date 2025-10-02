@@ -3,22 +3,24 @@
 This is an [Encore.ts](https://encore.dev/) + [NestJS](https://docs.nestjs.com/) example. It's a great way to learn how to combine Encore's backend 
 capabilities with a modern web framework — perfect for building a web app.
 
-Temporal is added to provider workflows as an additional capability.
+[Temporal](https://docs.temporal.io/evaluate/why-temporal) is added to provider workflows as an additional capability.
 
-## Developing locally
-
-When you have [installed Encore](https://encore.dev/docs/ts/install), you can create a new Encore application and clone this example with this command.
-
-```bash
-encore app create my-app-name --example=ts/nestjs
-```
 
 ## Running locally
+
+### Setup
+
+* Install all project dependencies
+* Install [Temporal development CLI](https://learn.temporal.io/getting_started/typescript/dev_environment/#set-up-a-local-temporal-service-for-development-with-temporal-cli)
+* Start the Temporal service locally in a new shell: `temporal server start-dev`
+
+### Start service
 ```bash
 encore run
 ```
 
-You can also access Encore's [local developer dashboard](https://encore.dev/docs/ts/observability/dev-dash) on <http://localhost:9400/> to view traces, API documentation, and more.
+
+You can access Encore's [local developer dashboard](https://encore.dev/docs/ts/observability/dev-dash) on <http://localhost:9400/> to view traces, API documentation, and more.
 
 ## Deployment
 
