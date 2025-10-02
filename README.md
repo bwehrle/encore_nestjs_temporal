@@ -1,7 +1,9 @@
-# NestJS + Encore Example
+# NestJS + Encore + Temporal Example 
 
 This is an [Encore.ts](https://encore.dev/) + [NestJS](https://docs.nestjs.com/) example. It's a great way to learn how to combine Encore's backend 
 capabilities with a modern web framework — perfect for building a web app.
+
+Temporal is added to provider workflows as an additional capability.
 
 ## Developing locally
 
